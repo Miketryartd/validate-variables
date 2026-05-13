@@ -18,10 +18,12 @@ A lightweight, specialized TypeScript validator for environment variables and co
 
 ## Installation
 
+
 ```bash
 npm install miketryartd-validate-variables
-Usage
-typescript
+```
+## Usage
+```typescript
 import { validateEnv, EnvSchema, InferSchema, isValid, parseOrThrow } from 'miketryartd-validate-variables';
 
 // Basic validation
@@ -98,6 +100,7 @@ if (isValid(data, schema)) {
 assertValid(data, schema); // Throws on error
 const config = parseOrThrow(data, schema); // Returns typed data or throws
 
+
 // Schema helpers
 import { pickSchema, omitSchema, extendSchema } from 'miketryartd-validate-variables';
 
@@ -126,6 +129,7 @@ DatabaseSchema - Database configuration
 RedisSchema - Redis configuration
 
 AppConfigSchema - Complete application config
-
+```
 License
 MIT
+Author: Miketryartd
