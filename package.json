@@ -37,6 +37,11 @@
   ],
   "author": "Miketryartd",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miketryartd/validate-variables"
+  },
+  "homepage": "https://github.com/Miketryartd/validate-variables#README",
   "devDependencies": {
     "typescript": "^6.0.3"
   }
