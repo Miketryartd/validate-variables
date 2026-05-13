@@ -1,2 +1,2 @@
 export { validate, validateEnv } from './validators';
-export { EnvSchema, DatabaseSchema } from './Props';
+export { EnvSchema, DatabaseSchema } from './props';

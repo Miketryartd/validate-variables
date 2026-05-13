@@ -1,7 +1,10 @@
 {
-  "name": "validate-variables",
+  "name": "miketryartd-validate-variables",
   "version": "1.0.0",
   "description": "A strict TypeScript validator for environment variables and configuration",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "exports": {
     ".": {

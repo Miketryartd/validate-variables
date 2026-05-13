@@ -5,7 +5,7 @@ A TypeScript validator for environment variables and configuration, similar to Z
 ## Installation
 
 ```bash
-npm install validate-variables
+npm install miketryartd-validate-variables
 ```
 
 ## Usage
