@@ -1,0 +1,43 @@
+{
+  "name": "validate-variables",
+  "version": "1.0.0",
+  "description": "A strict TypeScript validator for environment variables and configuration",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "main": "dist/cjs/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "validate",
+    "env",
+    "validator",
+    "types",
+    "secrets",
+    "strict",
+    "strict validator",
+    "boolean",
+    "utility",
+    "utilities",
+    "env checker",
+    "variable checker",
+    "checker",
+    "checks"
+  ],
+  "author": "Miketryartd",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
