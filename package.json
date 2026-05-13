@@ -1,6 +1,6 @@
 {
   "name": "miketryartd-validate-variables",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A strict TypeScript validator for environment variables and configuration",
   "publishConfig": {
     "access": "public"
@@ -46,6 +46,11 @@
   },
   "homepage": "https://github.com/Miketryartd/validate-variables#README",
   "devDependencies": {
+    "@types/node": "^25.7.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
   }
 }
